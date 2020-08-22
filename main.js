@@ -2,7 +2,7 @@
  * Makes AJAX call to reddit api with subreddit name, returning
  * parsed JSON response object to user
  * @param subredditName - subreddit to make api request for
- * @return object containing response data
+ * @return promise containing response data
  */
 function getSubredditPosts(subredditName) {
   return $.ajax({
